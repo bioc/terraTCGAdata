@@ -1,7 +1,7 @@
 Package: terraTCGAdata
 Type: Package
 Title: OpenAccess TCGA Data on Terra as MultiAssayExperiment
-Version: 1.13.0
+Version: 1.14.0
 Authors@R: person(
     "Marcel", "Ramos", , "marcel.ramos@sph.cuny.edu",
     c("aut", "cre"), c(ORCID = "0000-0002-3242-0582")
