@@ -36,7 +36,7 @@ the output provides a description for each code and the short letter codes.
 }
 \examples{
 if (
-    AnVILGCP::gcloud_exists() &&
+    GCPtools::gcloud_exists() &&
     identical(AnVILBase::avplatform_namespace(), "AnVILGCP") &&
     nzchar(AnVILGCP::avworkspace_name())
 )

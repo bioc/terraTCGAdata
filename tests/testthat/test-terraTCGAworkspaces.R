@@ -1,6 +1,6 @@
 test_that("terraTCGAworkspace works", {
     skip_if_not(
-        AnVILGCP::gcloud_exists() &&
+        GCPtools::gcloud_exists() &&
         identical(AnVILBase::avplatform_namespace(), "AnVILGCP") &&
         nzchar(AnVILGCP::avworkspace_name())
     )

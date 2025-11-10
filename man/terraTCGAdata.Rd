@@ -62,7 +62,7 @@ can be found on \url{app.terra.bio}.
 }
 \examples{
 if (
-    AnVILGCP::gcloud_exists() &&
+    GCPtools::gcloud_exists() &&
     identical(AnVILBase::avplatform_namespace(), "AnVILGCP")
 )
   terraTCGAdata(
