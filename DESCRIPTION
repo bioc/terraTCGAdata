@@ -28,6 +28,7 @@ Imports:
   utils
 Suggests:
   AnVILBase,
+  GCPtools,
   knitr,
   rmarkdown,
   BiocStyle,
