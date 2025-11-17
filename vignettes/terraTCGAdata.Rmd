@@ -15,7 +15,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 isAnVILWS <- function() {
-    AnVILGCP::gcloud_exists() &&
+    GCPtools::gcloud_exists() &&
     identical(AnVILBase::avplatform_namespace(), "AnVILGCP")
 }
 ```
@@ -73,10 +73,11 @@ library(terraTCGAdata)
 
 A valid GCloud SDK installation is required to use the package. To get set up,
 see the Bioconductor tutorials for running RStudio on Terra. Use the
-`gcloud_exists()` function from the `r BiocStyle::Biocpkg("AnVIL")` package to
-identify whether it is installed in your system.
+`gcloud_exists()` function from the `r BiocStyle::Biocpkg("GCPtools")` package
+to identify whether it is installed in your system.
 
 ```{r}
+library(GCPtools)
 gcloud_exists()
 ```
 
